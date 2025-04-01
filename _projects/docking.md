@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Docking Station Detection
+title: Autonomous Underwater Docking and Recharging
 description:
 img: assets/img/docking/iver.png
 importance: 1
 category: Robotics
 ---
 
-In order to recharge and retrieve data, Autonomous Underwater Vehicles (AUVs) must be recovered either manually or mechanically. This project automates that by developing a docking station and an autonomous docking maneuver for AUVs. Since AUVs cannot receive GPS signal underwater, localization for underwater docking must be performed another way-- such as vision.
+Autonomous Underwater Vehicles (AUVs) must be recovered manually in order to recharge. This project automates that by developing an autonomous docking strategy for AUVs. Since AUVs cannot receive GPS signal underwater, localization for underwater docking must be performed another way-- such as vision.
 
 <div class="row justify-content-around">
     <div class="col-sm mt-3 mt-md-0">
@@ -18,7 +18,7 @@ In order to recharge and retrieve data, Autonomous Underwater Vehicles (AUVs) mu
     </div>
 </div>
 <div class="caption">
-    AUV recovery is labor intensive, and makes long-term underwater missions costly. Often, AUVs are first retrieved manually by a small boat (left), then winched up onto the research vessel (right). <p>Images courtesy of <a href="https://oceanexplorer.noaa.gov/explorations/10thunderbay/background/recovering/recovering.html" target="_blank">Thunder Bay 2010 Expedition</a>, NOAA-OER.</p>
+    AUV recovery is labor intensive, and makes long-term underwater missions costly. Often, AUVs are first retrieved manually by a small boat (left), then winched up onto the research vessel (right). Images courtesy of <a href="https://oceanexplorer.noaa.gov/explorations/10thunderbay/background/recovering/recovering.html" target="_blank">Thunder Bay 2010 Expedition</a>, NOAA-OER.
 </div>
 
 <div class="row">

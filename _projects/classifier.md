@@ -21,8 +21,8 @@ category: Computer Vision
 <div class="caption">
     There are a few major challenges with wildlife taxonomy classification. These include the hierarchical constraint associated with taxonomic labeling (left), long-tailed/imbalanced class distributions (middle), unknown class distributions at inference (right), and fine-grained visual features (not pictured above). Each of these challenges add a level of complexity to the classification problem, but they all may be addressed with a clever architecture:  
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/classifier/arch.png" title="Classifier Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
