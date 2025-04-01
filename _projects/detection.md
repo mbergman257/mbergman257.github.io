@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: wildlife detection
+description: another
+img: assets/img/detection/sys_diagram.jpg
+importance: 1
+category: Computer Vision
 ---
 
 Every project has a beautiful feature showcase page.

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Purdue BSME/MSME | Robotics | Computer Vision | Software Development
+subtitle: MS Purdue University | Robotics | Computer Vision | Software Development
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Purdue University</p>
-    <p>West Lafayette, IN 47906</p>
+    <p>West Lafayette, IN</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am researching AI, Computer Vision, and Robotics in the marine domain at Purdue University as a Graduate Research Assistant. My Master's thesis investigated wildlife object detection and hierarchical classification by implementing and developing state of the art computer vision methods. A core part of my research investigates training models using imperfect or otherwise challenging datasets - commonly seen with wildlife image datasets.
+Hi! I'm researching AI, Computer Vision, and Robotics in the marine domain at Purdue University. My Master's thesis investigated wildlife object detection and hierarchical classification by implementing and developing state of the art computer vision methods. A core part of my research investigates training models using imperfect or otherwise challenging datasets - commonly seen with wildlife image datasets.
 
 I also spent time reworking our lab's graduate-level mobile robotics (ROS2) course, Autonomous Systems. Aside from this, my graduate coursework at Purdue included Deep Learning/AI, Reinforcement Learning, Computer Vision in Embedded Systems, Optimization, and Adv. Controls.
 
