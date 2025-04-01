@@ -69,12 +69,12 @@ ninja.data = [{
               window.location.href = "/projects/autsys/";
             },},{id: "projects-hierarchical-classification",
           title: 'Hierarchical Classification',
-          description: "a project with a background image and giscus comments",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/classifier/";
             },},{id: "projects-wildlife-detection",
-          title: 'wildlife detection',
-          description: "another",
+          title: 'Wildlife Detection',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/detection/";
             },},{id: "projects-docking-station-detection",
