@@ -1,7 +1,7 @@
 ---
 layout: page
-title: wildlife detection
-description: another
+title: Wildlife Detection
+description:
 img: assets/img/detection/sys_diagram.jpg
 importance: 1
 category: Computer Vision

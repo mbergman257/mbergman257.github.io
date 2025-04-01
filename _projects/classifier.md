@@ -1,38 +1,25 @@
 ---
 layout: page
 title: Hierarchical Classification
-description: a project with a background image and giscus comments
+description:
 img: assets/img/classifier/arch.png
-importance: 1
+importance:
 category: Computer Vision
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/classifier/hierarchical_constraint.png" title="Hierarchical Constraint" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/classifier/lt_distr.png" title="Long-Tailed Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/classifier/unknown_distr.png" title="Unknown Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    There are a few major challenges with wildlife taxonomy classification. These include the hierarchical constraint associated with taxonomic labeling (left), long-tailed/imbalanced class distributions (middle), unknown class distributions at inference (right), and fine-grained visual features (not pictured above). Each of these challenges add a level of complexity to the classification problem, but they all may be addressed with a clever architecture:  
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -40,12 +27,12 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    I developed a test-agnostic hierarchical classifier based on two state-of-the-art image classification methods. Together they address the three main challenges shown above. This classifier can simply be used alongside an off-the-shelf transformer backbone, which helps with the fine-grained features challenge.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+This project was a major part of my master's thesis. I used Python and PyTorch for all training and inference code, as well as some basic bash scripts to help automate the trials. The training environment was in Ubuntu and accelerated with CUDA.
+
+Work in progress...
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -59,22 +46,4 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+This work outperforms the baseline in nearly all accuracy metrics, demonstrating improved generalizability to new domains such as new ecosystems or ever-changing wildlife populations! Keep an eye out for the final publication as it goes through the review process!

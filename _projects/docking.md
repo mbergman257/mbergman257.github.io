@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Docking Station Detection
-description: 
+description:
 img: assets/img/docking/iver.png
 importance: 1
 category: Robotics

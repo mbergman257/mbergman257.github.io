@@ -28,9 +28,11 @@
       "position": "Graduate Research Assistant",
       "startDate": "2022",
       "summary": "Conducting robotic perception research for underwater robots such as Autonomous Underwater Vehicles (AUVs). ",
-      "highlights": ["Developed Perception Modules for AUVs using Python, Ubuntu, and ROS", 
-      "Developed novel vision algorithms using Python, Ubuntu, and PyTorch", 
-      "Performed field testing on underwater robots in local lakes."]
+      "highlights": [
+        "Developed Perception Modules for AUVs using Python, Ubuntu, and ROS",
+        "Developed novel vision algorithms using Python, Ubuntu, and PyTorch",
+        "Performed field testing on underwater robots in local lakes."
+      ]
     },
     {
       "name": "Purdue University, West Lafayette, IN",
@@ -38,8 +40,10 @@
       "startDate": "2023",
       "endDate": "2024",
       "summary": "Led the redesign of a graduate-level mobile robotics software development course.",
-      "highlights": ["Rewrote course curriculum, assignments, and tutorials for new hardware and software (ROS2).", 
-      "Built and configured classroom robots, led labs, gave lectures, wrote exams, and provided technical support as TA"]
+      "highlights": [
+        "Rewrote course curriculum, assignments, and tutorials for new hardware and software (ROS2).",
+        "Built and configured classroom robots, led labs, gave lectures, wrote exams, and provided technical support as TA"
+      ]
     },
     {
       "name": "GE, Louisville, KY & Greenville, SC",
@@ -47,9 +51,11 @@
       "startDate": "2019",
       "endDate": "2022",
       "summary": "Completed 3 internship rotations at GE Appliances and GE Power in various ME-focused roles.",
-      "highlights": ["Combustion Design Engineer: Led combustion tests, performed statistical analyses and data post-processing, and redesigned combustor parts based on simulation results.",
-      "Mechanical Design Engineer: Performed stress and thermal analyses on appliance parts.",
-      "Manufacturing Line Supervisor: Supervised a production line and developed safety and efficiency improvements."]
+      "highlights": [
+        "Combustion Design Engineer: Led combustion tests, performed statistical analyses and data post-processing, and redesigned combustor parts based on simulation results.",
+        "Mechanical Design Engineer: Performed stress and thermal analyses on appliance parts.",
+        "Manufacturing Line Supervisor: Supervised a production line and developed safety and efficiency improvements."
+      ]
     },
     {
       "name": "Naval Research Laboratory, Washington, DC",
@@ -69,7 +75,12 @@
       "startDate": "2022",
       "endDate": "2024",
       "score": "3.46",
-      "courses": ["ECE60146: Deep Learning", "ECE59500CV: Computer Vision for Embedded Systems", "ECE59500RL: Reinforcement Learning Theory & Alg.", "ME57500: Advanced Control Systems"]
+      "courses": [
+        "ECE60146: Deep Learning",
+        "ECE59500CV: Computer Vision for Embedded Systems",
+        "ECE59500RL: Reinforcement Learning Theory & Alg.",
+        "ME57500: Advanced Control Systems"
+      ]
     },
     {
       "institution": "Purdue University, Main Campus",
@@ -84,41 +95,28 @@
     }
   ],
   "skills": [
-    {"name":"Python"},
-    {"name":"Linux (Ubuntu)"},
-    {"name":"Bash"},
-    {"name":"Git & Github"},
-    {"name":"PyTorch"},
-    {"name":"ROS/ROS2"},
-    {"name":"Docker"},
-    {"name":"C/C++"},
-    {"name":"Matlab"},
-    {"name":"Embedded Devices"},
-    {"name":"CUDA"},
+    { "name": "Python" },
+    { "name": "Linux (Ubuntu)" },
+    { "name": "Bash" },
+    { "name": "Git & Github" },
+    { "name": "PyTorch" },
+    { "name": "ROS/ROS2" },
+    { "name": "Docker" },
+    { "name": "C/C++" },
+    { "name": "Matlab" },
+    { "name": "Embedded Devices" },
+    { "name": "CUDA" },
     {
       "name": "Deep Learning",
       "level": "Experienced",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Computer Vision",
-        "Object Detection",
-        "Image Classification",
-        "PyTorch",
-        "CUDA"
-        ]
+      "keywords": ["Computer Vision", "Object Detection", "Image Classification", "PyTorch", "CUDA"]
     },
     {
       "name": "Robotics",
       "level": "Experienced",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Mobile Robotics",
-        "Navigation",
-        "Path Planning Algorithms",
-        "Perception",
-        "Networking",
-        "Field Testing"
-        ]
+      "keywords": ["Mobile Robotics", "Navigation", "Path Planning Algorithms", "Perception", "Networking", "Field Testing"]
     }
   ]
 }

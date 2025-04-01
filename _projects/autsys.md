@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Autonomous Systems Course Redesign
-description: 
+description:
 img: assets/img/autsys/lab_arena.png
 importance: 1
 category: Robotics
