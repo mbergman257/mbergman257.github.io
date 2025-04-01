@@ -7,74 +7,38 @@ importance: 1
 category: Robotics
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In order to recharge and retrieve data, Autonomous Underwater Vehicles (AUVs) must be recovered either manually or mechanically. This project automates that by developing a docking station and an autonomous docking maneuver for AUVs. Since AUVs cannot receive GPS signal underwater, localization for underwater docking must be performed another way-- such as vision.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<div class="row justify-content-around">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/docking/recovering_manual.jpg" title="Courtesy of Thunder Bay 2010 Expedition, NOAA-OER" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/docking/recovering_mechanical.jpg" title="Courtesy of Thunder Bay 2010 Expedition, NOAA-OER" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    AUV recovery is labor intensive, and makes long-term underwater missions costly. Often, AUVs are first retrieved manually by a small boat (left), then winched up onto the research vessel (right). <p>Images courtesy of <a href="https://oceanexplorer.noaa.gov/explorations/10thunderbay/background/recovering/recovering.html" target="_blank">Thunder Bay 2010 Expedition</a>, NOAA-OER.</p>
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/docking/iver.png" title="AUV and Docking Station" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The AUV we used to validate our methods is the IVER3 AUV (top left). We also constructed a flat-funnel shaped docking station with a light beacon for autonomous visual identification (top right). The two interface for recharging when the AUV makes full contact inside the docking station (bottom).
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+At first, we attempted classical computer vision techniques, such as blob detection and brightest pixel methods, however, interactions with sunlight at the surface interfered heavily with these classical methods. We moved to a CNN-based method to learn a more complex representation of the system.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/docking/inference.jpg" title="CNN Inference Docking Station" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Sample inference output of docking station detection CNN. Model both classifies whether a docking station is present and provides localization of the detected docking station.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Work in Progress

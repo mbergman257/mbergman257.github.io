@@ -13,10 +13,10 @@ Major skills for this project included Ubuntu, Networking, Python, ROS/ROS2, and
 
 <div class="row justify-content-around">
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/autsys/ros_noetic.png" title="ROS Noetic Distro Image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/autsys/ros_noetic.png" title="ROS Noetic Distro" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/autsys/ros2_humble.png" title="ROS2 Humble Distro Image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/autsys/ros2_humble.png" title="ROS2 Humble Distro" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -25,7 +25,7 @@ Major skills for this project included Ubuntu, Networking, Python, ROS/ROS2, and
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/autsys/lab_arena.png" title="Lab Arena and Turtlebot4" class="img-fluid rounded z-depth-1" %}
-    </div>Lab Arena and Turtlebot4>
+    </div>
 <div class="caption">
     We upgrade our robot platform from a small raspberry pi car kit to the Turtlebot4 platform. This includes improved hardware and sensors including optical encoder, 2D Lidar, and RGB-D camera.
 </div>
@@ -37,10 +37,9 @@ We ran into a lot of challenges, especially with providing reliable environments
         {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/autsys/robot_uctronics.jpg" title="Old robot uctronics" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/autsys/robot_uctronics.jpg" title="UCTronics Robot Car Kit" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Work In Progress
 </div>
-
