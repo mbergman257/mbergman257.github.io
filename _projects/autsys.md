@@ -33,9 +33,6 @@ Major skills for this project included Ubuntu, Networking, Python, ROS/ROS2, and
 We ran into a lot of challenges, especially with providing reliable environments for all the students using Windows computers-- ROS/ROS2 relies on Ubuntu. I provided reliable workstation solutions given extremely limited resources in a university computer lab shared between multiple engineering classes. I also developed custom configurations for virtual machines and robots. This allowed robot communication within university network requirements and despite high network traffic.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/autsys/robot_uctronics.jpg" title="UCTronics Robot Car Kit" class="img-fluid rounded z-depth-1" %}
     </div>

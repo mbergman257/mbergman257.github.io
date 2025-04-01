@@ -32,18 +32,4 @@ category: Computer Vision
 
 This project was a major part of my master's thesis. I used Python and PyTorch for all training and inference code, as well as some basic bash scripts to help automate the trials. The training environment was in Ubuntu and accelerated with CUDA.
 
-Work in progress...
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
 This work outperforms the baseline in nearly all accuracy metrics, demonstrating improved generalizability to new domains such as new ecosystems or ever-changing wildlife populations! Keep an eye out for the final publication as it goes through the review process!
