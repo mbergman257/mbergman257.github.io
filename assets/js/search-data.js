@@ -57,11 +57,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-sample-project",
-          title: 'Sample Project',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
             },},{id: "projects-autonomous-systems-course-redesign",
           title: 'Autonomous Systems Course Redesign',
           description: "",
@@ -77,8 +72,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/detection/";
-            },},{id: "projects-docking-station-detection",
-          title: 'Docking Station Detection',
+            },},{id: "projects-autonomous-underwater-docking-and-recharging",
+          title: 'Autonomous Underwater Docking and Recharging',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/docking/";
