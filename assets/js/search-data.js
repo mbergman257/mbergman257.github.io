@@ -62,13 +62,13 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/autsys/";
-            },},{id: "projects-hierarchical-classification",
-          title: 'Hierarchical Classification',
+            },},{id: "projects-hierarchical-image-classification-for-long-tailed-datasets",
+          title: 'Hierarchical Image Classification for Long-Tailed Datasets',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/classifier/";
-            },},{id: "projects-wildlife-detection",
-          title: 'Wildlife Detection',
+            },},{id: "projects-efficient-object-detection-on-autonomous-underwater-vehicles-auvs",
+          title: 'Efficient Object Detection on Autonomous Underwater Vehicles (AUVs)',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/detection/";
