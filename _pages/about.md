@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm researching AI, Computer Vision, and Robotics in the marine domain at Purdue University. My Master's thesis investigated wildlife object detection and hierarchical classification by implementing and developing state of the art computer vision methods. A core part of my research investigates training models using imperfect or otherwise challenging datasets - commonly seen with wildlife image datasets.
+Hi! I'm researching AI, Computer Vision, and Robotics in the marine domain at Purdue University. My Master's thesis investigated wildlife object detection on AUVs and hierarchical classification by implementing and developing state of the art computer vision methods. A core value of my research is to provide practical and realistic solutions to implement on AUVs and mobile robots. Another focus of mine is working with imperfect or otherwise challenging datasets - commonly seen with wildlife image datasets, for example.
 
-I also spent time reworking our lab's graduate-level mobile robotics (ROS2) course, Autonomous Systems. Aside from this, my graduate coursework at Purdue included Deep Learning/AI, Reinforcement Learning, Computer Vision in Embedded Systems, Optimization, and Adv. Controls.
+Aside from research, I also spent time reworking our lab's graduate-level mobile robotics (ROS2) course, Autonomous Systems. As a student, my coursework at Purdue included Deep Learning/AI, Reinforcement Learning, Computer Vision in Embedded Systems, Machine Learning, Optimization, and Adv. Controls.
 
 Please feel free to connect on LinkedIn and explore the rest of my portfolio!

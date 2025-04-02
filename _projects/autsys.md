@@ -7,7 +7,7 @@ importance: 1
 category: Robotics
 ---
 
-Our robotics software development course, titled "Autonomous Systems", offers students practical experience with mobile robots and ROS -- a popular robotics middleware. In this project, I led upgrades to software and hardware; rebuilding our curriculum and lab content around ROS2 and Clearpath Robotics' Turtlebot4. This consisted of entirely new content for lab assignments, exam questions, and some lecture material. Additionally, I developed multi-robot and cross-OS(Windows/macOS/Ubuntu) solutions for restrictive networking and IT requirements.
+Our robotics software development course, titled <em>Autonomous Systems</em>, offers students practical experience with mobile robots and ROS -- a popular robotics middleware. In this project, I led upgrades to software and hardware; rebuilding our curriculum and lab content around ROS2 and Clearpath Robotics' Turtlebot4. This consisted of entirely new content for lab assignments, exam questions, and some lecture material. Additionally, I developed multi-robot and cross-OS(Windows/macOS/Ubuntu) solutions for restrictive networking and IT requirements.
 
 - Major skills for this project include: Ubuntu, networking, Python, ROS/ROS2, microcontrollers, and mobile robotics theory.
 
@@ -44,6 +44,7 @@ We ran into a lot of challenges, especially with providing reliable environments
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/autsys/lab_arena.png" title="Lab Arena and Turtlebot4" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
 <div class="caption">
     A student maps a classroom maze with a tele-operated Turtlebot4 as part of the Autonomous Navigation unit.
 </div>

@@ -25,5 +25,5 @@ Hello! This page is a work in progress. For now, it will serve as a placeholder 
     </div>
 </div>
 <div class="caption">
-    MTL Detection System Diagram
+    MTL Detection System Diagram (best viewed in light mode)
 </div>

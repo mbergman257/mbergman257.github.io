@@ -37,6 +37,6 @@ There are a few major challenges with wildlife taxonomy classification. These in
     I developed a hierarchical classifier based on two state-of-the-art image classification methods. Together they address the three main challenges shown above. This classifier can simply be used alongside an off-the-shelf transformer backbone, which helps with the fine-grained features challenge.
 </div>
 
-This project was a major part of my master's thesis. I used Python and PyTorch for all training and inference code, as well as some basic bash scripts to help automate the trials. The training environment was in Ubuntu and accelerated with CUDA. I used quite a bit of deep learning theory from my coursework to design the model architecture.
+I used Python and PyTorch for all training and inference code, as well as some basic bash scripts to help automate the trials. The training environment was in Ubuntu with CUDA acceleration. I used quite a bit of deep learning theory from my coursework to design the model architecture.
 
 This work outperforms the baseline in nearly all accuracy metrics, demonstrating improved generalizability to new domains such as new ecosystems or ever-changing wildlife populations! Keep an eye out for the final publication as it goes through the review process!
