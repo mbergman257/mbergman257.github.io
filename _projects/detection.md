@@ -1,11 +1,15 @@
 ---
 layout: page
-title: Wildlife Detection
+title: Efficient Object Detection on Autonomous Underwater Vehicles (AUVs)
 description:
 img: assets/img/detection/sys_diagram.jpg
 importance: 1
 category: Computer Vision
 ---
+
+Hello! This page is a work in progress. For now, it will serve as a placeholder while I attend to another time-sensitive task. Check back again soon for updates!
+
+- Major skills for this project include: Python, PyTorch, Ubuntu, CUDA, edge AI devices (Jetson Nano), and deep learning theory.
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">

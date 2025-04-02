@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Hierarchical Classification
+title: Hierarchical Image Classification for Long-Tailed Datasets
 description:
 img: assets/img/classifier/arch.png
 importance:
 category: Computer Vision
 ---
+
+- Major skills for this project include: Python, PyTorch, Ubuntu, CUDA, deep learning theory, and probability.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
