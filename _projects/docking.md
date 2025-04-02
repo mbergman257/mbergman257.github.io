@@ -9,7 +9,7 @@ category: Robotics
 
 Autonomous Underwater Vehicles (AUVs) must be recovered manually in order to recharge. This project automates that by developing an autonomous docking strategy for AUVs. Since AUVs cannot receive GPS signal underwater, localization for underwater docking must be performed another way-- such as vision.
 
-- Major skills for this project include: Python, Ubuntu, ROS, PyTorch, CNNs, navigation algorithms, microcontrollers, field robotics, and deep learning.
+- Major skills for this project include: Python, Ubuntu, ROS, PyTorch, Git, CNNs, navigation algorithms, microcontrollers, field robotics, and deep learning.
 
 <div class="row justify-content-around">
     <div class="col-sm mt-3 mt-md-0">

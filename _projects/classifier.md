@@ -9,7 +9,7 @@ category: Computer Vision
 
 Wildlife image recognition is critical for fisheries, environmental and ecological research, and wildlife conservation. AUVs and vision methods are being increasingly used, however, marine biologists spend a lot of time re-training and re-developing new classification models because those models are not generalizable enough for use in a variety of wildlife populations. In this work I develop a generalizable hierarchical classifier for wildlife taxonomy in order to reduce time spent by researchers on vision model development.
 
-- Major skills for this project include: Python, PyTorch, Ubuntu, CUDA, deep learning theory, and probability.
+- Major skills for this project include: Python, PyTorch, Ubuntu, Git, CUDA, deep learning theory, and probability.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
