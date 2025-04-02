@@ -6,7 +6,7 @@ subtitle: MS Purdue University | Robotics | Computer Vision | Software Developme
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Purdue University</p>
