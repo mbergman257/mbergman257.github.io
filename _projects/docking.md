@@ -20,8 +20,10 @@ Autonomous Underwater Vehicles (AUVs) must be recovered manually in order to rec
     </div>
 </div>
 <div class="caption">
-    AUV recovery is labor intensive, and makes long-term underwater missions costly. Often, AUVs are first retrieved manually by a small boat (left), then winched up onto the research vessel (right). Images courtesy of <a href="https://oceanexplorer.noaa.gov/explorations/10thunderbay/background/recovering/recovering.html" target="_blank">Thunder Bay 2010 Expedition</a>, NOAA-OER.
+    AUV recovery is labor intensive, and makes long-term underwater missions costly. Often, AUVs are first retrieved manually by a small boat (left), then winched onto a larger vessel (right). Images courtesy of <a href="https://oceanexplorer.noaa.gov/explorations/10thunderbay/background/recovering/recovering.html" target="_blank">Thunder Bay 2010 Expedition</a>, NOAA-OER.
 </div>
+
+Our autonomous docking strategy consists of using dead-reckoning to estimate the AUV's pose, then switching to vision for fine-grained localization up until the (hopefully successful) docking attempt. We place a light beacon on the docking station for low-visibility waters, like the lake we often tested in.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -29,10 +31,10 @@ Autonomous Underwater Vehicles (AUVs) must be recovered manually in order to rec
     </div>
 </div>
 <div class="caption">
-    The AUV we used to validate our methods is the IVER3 AUV (top left). We also constructed a flat-funnel shaped docking station with a light beacon for autonomous visual identification (top right). The two interface for recharging when the AUV makes full contact inside the docking station (bottom).
+    The AUV we used to validate our methods is the IVER3 AUV (top left). A flat-funnel shaped docking station is used with a light beacon for autonomous visual identification (top right). The AUV and recharging station's electrodes make contact when the AUV is fully docked into the flat funnel (bottom).
 </div>
 
-At first, we attempted classical computer vision techniques, such as blob detection and brightest pixel methods, however, interactions with sunlight at the surface interfered heavily with these classical methods. We moved to a CNN-based method to learn a more complex representation of the system.
+At first, we attempted classical computer vision techniques to detect the light beacon, such as blob detection and brightest pixel methods. However, bubbles and sunlight interactions with the surface interfered heavily with these classical methods. We moved to a CNN-based method to learn a more robust model. I developed the CNN and integrated it into the AUV's perception system.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -43,4 +45,4 @@ At first, we attempted classical computer vision techniques, such as blob detect
     Sample inference output of docking station detection CNN. Model both classifies whether a docking station is present and provides localization of the detected docking station.
 </div>
 
-Work in Progress
+I provided significant supporting work, including installing new communications, camera, and power distribution systems in the AUV. I performed field work, testing our strategies at a local lake. Finally, over 4 days of field testing, we achieved a success rate of 71% (control has <5% success rate). Overall, this can be considered a major success and a step towards persistent underwater autonomy with AUVs. This work is currently under review at IEEE Journal of Ocean Engineering.
