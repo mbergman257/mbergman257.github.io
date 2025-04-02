@@ -57,8 +57,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-autonomous-systems-course-redesign",
-          title: 'Autonomous Systems Course Redesign',
+            },},{id: "projects-robotics-course-redesign-autonomous-systems",
+          title: 'Robotics Course Redesign - Autonomous Systems',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/autsys/";
