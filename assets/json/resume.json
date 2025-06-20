@@ -72,7 +72,7 @@
       "url": "https://www.purdue.edu",
       "area": "Focus: Robotics & Computer Vision",
       "studyType": "M.S. Mechanical Engineering",
-      "startDate": "2022",
+      "startDate": "2023",
       "endDate": "2024",
       "score": "3.46",
       "courses": [
@@ -105,12 +105,11 @@
     { "name": "C/C++" },
     { "name": "Matlab" },
     { "name": "Embedded Devices" },
-    { "name": "CUDA" },
     {
       "name": "Deep Learning",
       "level": "Experienced",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Computer Vision", "Object Detection", "Image Classification", "PyTorch", "CUDA"]
+      "keywords": ["Computer Vision", "Object Detection", "Image Classification", "PyTorch"]
     },
     {
       "name": "Robotics",
