@@ -67,8 +67,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/classifier/";
-            },},{id: "projects-efficient-object-detection-on-autonomous-underwater-vehicles-auvs",
-          title: 'Efficient Object Detection on Autonomous Underwater Vehicles (AUVs)',
+            },},{id: "projects-multi-task-perception-system-for-resource-constrained-auvs",
+          title: 'Multi-Task Perception System for Resource Constrained AUVs',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/detection/";
